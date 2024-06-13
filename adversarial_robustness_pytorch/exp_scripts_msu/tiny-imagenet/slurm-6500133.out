@@ -1,0 +1,139 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Logging to file:  /mnt/home/xuezhiyu/results/adver_robustness_notrack/tiny-imagenet/1_preact-resnet34_adver_avg_beta_1.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+
+
+
+/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py:563: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Standard Accuracy-	Test: 0.488281%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 157, in train
+    adv_loss, adv_batch_metrics = self.adversarial_loss(x, y) 
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 209, in adversarial_loss
+    x_adv, _ = self.attack.perturb(x, y)
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 135, in perturb
+    x_adv, r_adv = perturb_iterative(
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 45, in perturb_iterative
+    outputs = predict(xvar + delta)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 166, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 104, in forward
+    out = self.conv1(x)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 457, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 453, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: CUDA out of memory. Tried to allocate 1024.00 MiB (GPU 0; 31.74 GiB total capacity; 29.77 GiB already allocated; 707.12 MiB free; 29.89 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Logging to file:  /mnt/home/xuezhiyu/results/adver_robustness_notrack/tiny-imagenet/1_preact-resnet34_adver_avg_beta_0.5/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+
+
+
+/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py:563: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Standard Accuracy-	Test: 0.488281%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 157, in train
+    adv_loss, adv_batch_metrics = self.adversarial_loss(x, y) 
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 209, in adversarial_loss
+    x_adv, _ = self.attack.perturb(x, y)
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 135, in perturb
+    x_adv, r_adv = perturb_iterative(
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 45, in perturb_iterative
+    outputs = predict(xvar + delta)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 166, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 104, in forward
+    out = self.conv1(x)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 457, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 453, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: CUDA out of memory. Tried to allocate 1024.00 MiB (GPU 0; 31.74 GiB total capacity; 29.77 GiB already allocated; 707.12 MiB free; 29.89 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Logging to file:  /mnt/home/xuezhiyu/results/adver_robustness_notrack/tiny-imagenet/1_preact-resnet34_adver_avg_beta_0.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+
+
+
+/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py:563: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Standard Accuracy-	Test: 0.488281%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 157, in train
+    adv_loss, adv_batch_metrics = self.adversarial_loss(x, y) 
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 209, in adversarial_loss
+    x_adv, _ = self.attack.perturb(x, y)
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 135, in perturb
+    x_adv, r_adv = perturb_iterative(
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 45, in perturb_iterative
+    outputs = predict(xvar + delta)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 166, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 104, in forward
+    out = self.conv1(x)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 457, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 453, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: CUDA out of memory. Tried to allocate 1024.00 MiB (GPU 0; 31.74 GiB total capacity; 29.77 GiB already allocated; 707.12 MiB free; 29.89 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

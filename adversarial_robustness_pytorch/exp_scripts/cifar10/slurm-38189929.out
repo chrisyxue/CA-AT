@@ -1,0 +1,200 @@
+/ext3/miniconda3/lib/python3.10/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 3, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/cifar10_aug_adver_criterion_ce/1_resnet50_adver_thres_thres_0.7/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Files already downloaded and verified
+Files already downloaded and verified
+
+
+
+Standard Accuracy-	Test: 8.891314%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 219, in train
+    adv_loss, adv_batch_metrics = self.adversarial_loss(x, y) 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 279, in adversarial_loss
+    x_adv, _ = self.attack.perturb(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 135, in perturb
+    x_adv, r_adv = perturb_iterative(
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 45, in perturb_iterative
+    outputs = predict(xvar + delta)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/resnet.py", line 143, in forward
+    out = self.layer3(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/resnet.py", line 99, in forward
+    out = self.bn3(self.conv3(out))
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+    return F.batch_norm(
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/functional.py", line 2450, in batch_norm
+    return torch.batch_norm(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 256.00 MiB (GPU 0; 44.48 GiB total capacity; 43.08 GiB already allocated; 71.31 MiB free; 43.30 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+/ext3/miniconda3/lib/python3.10/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 3, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/cifar10_aug_adver_criterion_ce/1_resnet50_adver_thres_thres_0.75/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Files already downloaded and verified
+Files already downloaded and verified
+
+
+
+Standard Accuracy-	Test: 8.891314%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 219, in train
+    adv_loss, adv_batch_metrics = self.adversarial_loss(x, y) 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 279, in adversarial_loss
+    x_adv, _ = self.attack.perturb(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 135, in perturb
+    x_adv, r_adv = perturb_iterative(
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 45, in perturb_iterative
+    outputs = predict(xvar + delta)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/resnet.py", line 143, in forward
+    out = self.layer3(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/resnet.py", line 99, in forward
+    out = self.bn3(self.conv3(out))
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+    return F.batch_norm(
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/functional.py", line 2450, in batch_norm
+    return torch.batch_norm(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 256.00 MiB (GPU 0; 44.48 GiB total capacity; 43.08 GiB already allocated; 71.31 MiB free; 43.30 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+/ext3/miniconda3/lib/python3.10/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 3, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/cifar10_aug_adver_criterion_ce/1_resnet50_adver_thres_thres_0.85/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Files already downloaded and verified
+Files already downloaded and verified
+
+
+
+Standard Accuracy-	Test: 8.891314%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 219, in train
+    adv_loss, adv_batch_metrics = self.adversarial_loss(x, y) 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 279, in adversarial_loss
+    x_adv, _ = self.attack.perturb(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 135, in perturb
+    x_adv, r_adv = perturb_iterative(
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 45, in perturb_iterative
+    outputs = predict(xvar + delta)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/resnet.py", line 143, in forward
+    out = self.layer3(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/resnet.py", line 99, in forward
+    out = self.bn3(self.conv3(out))
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+    return F.batch_norm(
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/functional.py", line 2450, in batch_norm
+    return torch.batch_norm(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 256.00 MiB (GPU 0; 44.48 GiB total capacity; 43.08 GiB already allocated; 71.31 MiB free; 43.30 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+/ext3/miniconda3/lib/python3.10/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 3, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/cifar10_aug_adver_criterion_ce/1_resnet50_adver_thres_thres_0.95/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Files already downloaded and verified
+Files already downloaded and verified
+
+
+
+Standard Accuracy-	Test: 8.891314%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 219, in train
+    adv_loss, adv_batch_metrics = self.adversarial_loss(x, y) 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 279, in adversarial_loss
+    x_adv, _ = self.attack.perturb(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 135, in perturb
+    x_adv, r_adv = perturb_iterative(
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/attacks/pgd.py", line 45, in perturb_iterative
+    outputs = predict(xvar + delta)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/resnet.py", line 143, in forward
+    out = self.layer3(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/resnet.py", line 99, in forward
+    out = self.bn3(self.conv3(out))
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+    return F.batch_norm(
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/functional.py", line 2450, in batch_norm
+    return torch.batch_norm(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 256.00 MiB (GPU 0; 44.48 GiB total capacity; 43.08 GiB already allocated; 71.31 MiB free; 43.30 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

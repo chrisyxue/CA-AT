@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#SBATCH --job-name=Adver_TinyImageNet
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=3
+#SBATCH --time=30:00:00
+#SBATCH --mem=15GB
+#SBATCH --gres=gpu:rtx8000:1
+
+
+module purge
+cd /scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/exp_scripts/tiny-imagenet
+
+singularity exec --nv \
+            --overlay /scratch/zx1673/myconda/my_pytorch.ext3:ro /scratch/work/public/singularity/cuda11.6.124-cudnn8.4.0.27-devel-ubuntu20.04.4.sif \
+            /bin/bash -c 'source /ext3/env.sh; bash run_1_proj_resnet34.sh'

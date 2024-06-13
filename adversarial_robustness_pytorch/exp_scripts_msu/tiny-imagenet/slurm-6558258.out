@@ -1,0 +1,375 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Logging to file:  /mnt/home/xuezhiyu/results/adver_robustness_notrack/tiny-imagenet/1_preact-resnet34_adver_thres_thres_0.9/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+
+
+
+/mnt/home/xuezhiyu/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Standard Accuracy-	Test: 0.498047%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Check Epoch 1:   0%|          | 0/98 [00:00<?, ?it/s]Check Epoch 1:   1%|          | 1/98 [00:07<12:39,  7.83s/it]Check Epoch 1:   2%|▏         | 2/98 [00:13<10:38,  6.65s/it]Check Epoch 1:   3%|▎         | 3/98 [00:19<09:52,  6.23s/it]Check Epoch 1:   4%|▍         | 4/98 [00:25<09:27,  6.03s/it]Check Epoch 1:   5%|▌         | 5/98 [00:30<09:10,  5.92s/it]Check Epoch 1:   6%|▌         | 6/98 [00:36<08:59,  5.86s/it]Check Epoch 1:   7%|▋         | 7/98 [00:42<08:49,  5.82s/it]Check Epoch 1:   8%|▊         | 8/98 [00:48<08:41,  5.79s/it]Check Epoch 1:   9%|▉         | 9/98 [00:53<08:33,  5.77s/it]Check Epoch 1:  10%|█         | 10/98 [00:59<08:26,  5.76s/it]Check Epoch 1:  11%|█         | 11/98 [01:05<08:20,  5.75s/it]Check Epoch 1:  12%|█▏        | 12/98 [01:10<08:14,  5.75s/it]Check Epoch 1:  13%|█▎        | 13/98 [01:16<08:08,  5.74s/it]Check Epoch 1:  14%|█▍        | 14/98 [01:22<08:02,  5.74s/it]Check Epoch 1:  15%|█▌        | 15/98 [01:28<07:56,  5.74s/it]Check Epoch 1:  16%|█▋        | 16/98 [01:33<07:50,  5.74s/it]Check Epoch 1:  17%|█▋        | 17/98 [01:39<07:44,  5.73s/it]Check Epoch 1:  18%|█▊        | 18/98 [01:45<07:38,  5.73s/it]Check Epoch 1:  19%|█▉        | 19/98 [01:51<07:32,  5.73s/it]Check Epoch 1:  20%|██        | 20/98 [01:56<07:27,  5.73s/it]Check Epoch 1:  21%|██▏       | 21/98 [02:02<07:21,  5.73s/it]Check Epoch 1:  22%|██▏       | 22/98 [02:08<07:15,  5.73s/it]Check Epoch 1:  23%|██▎       | 23/98 [02:14<07:09,  5.73s/it]Check Epoch 1:  24%|██▍       | 24/98 [02:19<07:04,  5.73s/it]Check Epoch 1:  26%|██▌       | 25/98 [02:25<06:58,  5.73s/it]Check Epoch 1:  27%|██▋       | 26/98 [02:31<06:52,  5.73s/it]Check Epoch 1:  28%|██▊       | 27/98 [02:36<06:47,  5.73s/it]Check Epoch 1:  29%|██▊       | 28/98 [02:42<06:41,  5.73s/it]Check Epoch 1:  30%|██▉       | 29/98 [02:48<06:35,  5.73s/it]Check Epoch 1:  31%|███       | 30/98 [02:54<06:29,  5.73s/it]Check Epoch 1:  32%|███▏      | 31/98 [02:59<06:24,  5.73s/it]Check Epoch 1:  33%|███▎      | 32/98 [03:05<06:18,  5.73s/it]Check Epoch 1:  34%|███▎      | 33/98 [03:11<06:12,  5.73s/it]Check Epoch 1:  35%|███▍      | 34/98 [03:17<06:06,  5.73s/it]Check Epoch 1:  36%|███▌      | 35/98 [03:22<06:01,  5.73s/it]Check Epoch 1:  37%|███▋      | 36/98 [03:28<05:55,  5.73s/it]Check Epoch 1:  38%|███▊      | 37/98 [03:34<05:49,  5.73s/it]Check Epoch 1:  39%|███▉      | 38/98 [03:40<05:44,  5.73s/it]Check Epoch 1:  40%|███▉      | 39/98 [03:45<05:38,  5.74s/it]Check Epoch 1:  41%|████      | 40/98 [03:51<05:32,  5.73s/it]Check Epoch 1:  42%|████▏     | 41/98 [03:57<05:26,  5.73s/it]Check Epoch 1:  43%|████▎     | 42/98 [04:02<05:21,  5.73s/it]Check Epoch 1:  44%|████▍     | 43/98 [04:08<05:15,  5.73s/it]Check Epoch 1:  45%|████▍     | 44/98 [04:14<05:09,  5.73s/it]Check Epoch 1:  46%|████▌     | 45/98 [04:20<05:03,  5.73s/it]Check Epoch 1:  47%|████▋     | 46/98 [04:25<04:58,  5.73s/it]Check Epoch 1:  48%|████▊     | 47/98 [04:31<04:52,  5.73s/it]Check Epoch 1:  49%|████▉     | 48/98 [04:37<04:46,  5.73s/it]Check Epoch 1:  50%|█████     | 49/98 [04:43<04:40,  5.73s/it]Check Epoch 1:  51%|█████     | 50/98 [04:48<04:35,  5.73s/it]Check Epoch 1:  52%|█████▏    | 51/98 [04:54<04:29,  5.73s/it]Check Epoch 1:  53%|█████▎    | 52/98 [05:00<04:23,  5.73s/it]Check Epoch 1:  54%|█████▍    | 53/98 [05:06<04:17,  5.73s/it]Check Epoch 1:  55%|█████▌    | 54/98 [05:11<04:12,  5.73s/it]Check Epoch 1:  56%|█████▌    | 55/98 [05:17<04:06,  5.73s/it]Check Epoch 1:  57%|█████▋    | 56/98 [05:23<04:00,  5.73s/it]Check Epoch 1:  58%|█████▊    | 57/98 [05:28<03:55,  5.73s/it]Check Epoch 1:  59%|█████▉    | 58/98 [05:34<03:49,  5.73s/it]Check Epoch 1:  60%|██████    | 59/98 [05:40<03:43,  5.73s/it]Check Epoch 1:  61%|██████    | 60/98 [05:46<03:37,  5.73s/it]Check Epoch 1:  62%|██████▏   | 61/98 [05:51<03:32,  5.73s/it]Check Epoch 1:  63%|██████▎   | 62/98 [05:57<03:26,  5.73s/it]Check Epoch 1:  64%|██████▍   | 63/98 [06:03<03:20,  5.73s/it]Check Epoch 1:  65%|██████▌   | 64/98 [06:09<03:14,  5.73s/it]Check Epoch 1:  66%|██████▋   | 65/98 [06:14<03:09,  5.73s/it]Check Epoch 1:  67%|██████▋   | 66/98 [06:20<03:03,  5.73s/it]Check Epoch 1:  68%|██████▊   | 67/98 [06:26<02:57,  5.73s/it]Check Epoch 1:  69%|██████▉   | 68/98 [06:32<02:51,  5.73s/it]Check Epoch 1:  70%|███████   | 69/98 [06:37<02:46,  5.73s/it]Check Epoch 1:  71%|███████▏  | 70/98 [06:43<02:40,  5.73s/it]Check Epoch 1:  72%|███████▏  | 71/98 [06:49<02:34,  5.73s/it]Check Epoch 1:  73%|███████▎  | 72/98 [06:54<02:28,  5.73s/it]Check Epoch 1:  74%|███████▍  | 73/98 [07:00<02:23,  5.73s/it]Check Epoch 1:  76%|███████▌  | 74/98 [07:06<02:17,  5.73s/it]Check Epoch 1:  77%|███████▋  | 75/98 [07:12<02:11,  5.73s/it]Check Epoch 1:  78%|███████▊  | 76/98 [07:17<02:06,  5.73s/it]Check Epoch 1:  79%|███████▊  | 77/98 [07:23<02:00,  5.73s/it]Check Epoch 1:  80%|███████▉  | 78/98 [07:29<01:54,  5.73s/it]Check Epoch 1:  81%|████████  | 79/98 [07:35<01:48,  5.73s/it]Check Epoch 1:  82%|████████▏ | 80/98 [07:40<01:43,  5.73s/it]Check Epoch 1:  83%|████████▎ | 81/98 [07:46<01:37,  5.76s/it]Check Epoch 1:  84%|████████▎ | 82/98 [07:52<01:32,  5.75s/it]Check Epoch 1:  85%|████████▍ | 83/98 [07:58<01:26,  5.75s/it]Check Epoch 1:  86%|████████▌ | 84/98 [08:03<01:20,  5.74s/it]Check Epoch 1:  87%|████████▋ | 85/98 [08:09<01:14,  5.74s/it]Check Epoch 1:  88%|████████▊ | 86/98 [08:15<01:08,  5.74s/it]Check Epoch 1:  89%|████████▉ | 87/98 [08:21<01:03,  5.73s/it]Check Epoch 1:  90%|████████▉ | 88/98 [08:26<00:57,  5.73s/it]Check Epoch 1:  91%|█████████ | 89/98 [08:32<00:51,  5.73s/it]Check Epoch 1:  92%|█████████▏| 90/98 [08:38<00:45,  5.73s/it]Check Epoch 1:  93%|█████████▎| 91/98 [08:43<00:40,  5.73s/it]Check Epoch 1:  94%|█████████▍| 92/98 [08:49<00:34,  5.73s/it]Check Epoch 1:  95%|█████████▍| 93/98 [08:55<00:28,  5.73s/it]Check Epoch 1:  96%|█████████▌| 94/98 [09:01<00:22,  5.73s/it]Check Epoch 1:  97%|█████████▋| 95/98 [09:06<00:17,  5.73s/it]Check Epoch 1:  98%|█████████▊| 96/98 [09:12<00:11,  5.73s/it]Check Epoch 1:  99%|█████████▉| 97/98 [09:18<00:05,  5.73s/it]Check Epoch 1: 100%|██████████| 98/98 [09:22<00:00,  5.15s/it]Check Epoch 1: 100%|██████████| 98/98 [09:22<00:00,  5.74s/it]
+Clean Loss: 5.2253.	LR: 0.0160
+Adver Loss: 5.3257.	LR: 0.0160
+Standard Accuracy-	Train: 1.37%.	Test: 1.24%.
+Adversarial Accuracy-	Train: 1.10%.
+Time taken: 0:19:12
+======= Epoch 2 =======
+Clean Loss: 4.9031.	LR: 0.0722
+Adver Loss: 5.2248.	LR: 0.0722
+Standard Accuracy-	Train: 3.95%.	Test: 3.60%.
+Adversarial Accuracy-	Train: 1.82%.
+Time taken: 0:09:24
+======= Epoch 3 =======
+Clean Loss: 4.3909.	LR: 0.2080
+Adver Loss: 5.0143.	LR: 0.2080
+Standard Accuracy-	Train: 9.27%.	Test: 6.96%.
+Adversarial Accuracy-	Train: 3.33%.
+Time taken: 0:09:58
+======= Epoch 4 =======
+Clean Loss: 3.9954.	LR: 0.3438
+Adver Loss: 4.7496.	LR: 0.3438
+Standard Accuracy-	Train: 15.40%.	Test: 9.55%.
+Adversarial Accuracy-	Train: 5.75%.
+Time taken: 0:09:50
+======= Epoch 5 =======
+Clean Loss: 3.6969.	LR: 0.4000
+Adver Loss: 4.5701.	LR: 0.4000
+Standard Accuracy-	Train: 20.31%.	Test: 12.05%.
+Adversarial Accuracy-	Train: 7.61%.
+Time taken: 0:09:25
+======= Epoch 6 =======
+Clean Loss: 3.4237.	LR: 0.4000
+Adver Loss: 4.4306.	LR: 0.4000
+Standard Accuracy-	Train: 24.90%.	Test: 14.27%.
+Adversarial Accuracy-	Train: 9.28%.
+Time taken: 0:09:24
+======= Epoch 7 =======
+Clean Loss: 3.1940.	LR: 0.3999
+Adver Loss: 4.3082.	LR: 0.3999
+Standard Accuracy-	Train: 29.26%.	Test: 15.78%.
+Adversarial Accuracy-	Train: 10.86%.
+Time taken: 0:09:52
+======= Epoch 8 =======
+Clean Loss: 2.9777.	LR: 0.3998
+Adver Loss: 4.2193.	LR: 0.3998
+Standard Accuracy-	Train: 33.26%.	Test: 18.03%.
+Adversarial Accuracy-	Train: 12.10%.
+Time taken: 0:09:24
+======= Epoch 9 =======
+Clean Loss: 2.7881.	LR: 0.3996
+Adver Loss: 4.1479.	LR: 0.3996
+Standard Accuracy-	Train: 36.88%.	Test: 19.81%.
+Adversarial Accuracy-	Train: 13.08%.
+Time taken: 0:09:24
+======= Epoch 10 =======
+Clean Loss: 2.6064.	LR: 0.3994
+Adver Loss: 4.0796.	LR: 0.3994
+Standard Accuracy-	Train: 40.30%.	Test: 20.44%.
+Adversarial Accuracy-	Train: 14.06%.
+Time taken: 0:09:52
+======= Epoch 11 =======
+Clean Loss: 2.4407.	LR: 0.3991
+Adver Loss: 4.0223.	LR: 0.3991
+Standard Accuracy-	Train: 43.73%.	Test: 21.95%.
+Adversarial Accuracy-	Train: 14.87%.
+Time taken: 0:09:36
+======= Epoch 12 =======
+Clean Loss: 2.2889.	LR: 0.3987
+Adver Loss: 3.9730.	LR: 0.3987
+Standard Accuracy-	Train: 46.91%.	Test: 23.01%.
+Adversarial Accuracy-	Train: 15.67%.
+Time taken: 0:09:24
+======= Epoch 13 =======
+Clean Loss: 2.1458.	LR: 0.3983
+Adver Loss: 3.9134.	LR: 0.3983
+Standard Accuracy-	Train: 49.86%.	Test: 24.09%.
+Adversarial Accuracy-	Train: 16.40%.
+Time taken: 0:09:24
+======= Epoch 14 =======
+Clean Loss: 2.0154.	LR: 0.3979
+Adver Loss: 3.8583.	LR: 0.3979
+Standard Accuracy-	Train: 52.71%.	Test: 24.19%.
+Adversarial Accuracy-	Train: 17.11%.
+Time taken: 0:09:32
+======= Epoch 15 =======
+Clean Loss: 1.8870.	LR: 0.3974
+Adver Loss: 3.7874.	LR: 0.3974
+Standard Accuracy-	Train: 55.49%.	Test: 26.31%.
+Adversarial Accuracy-	Train: 18.08%.
+Time taken: 0:09:24
+======= Epoch 16 =======
+Clean Loss: 1.7718.	LR: 0.3969
+Adver Loss: 3.7294.	LR: 0.3969
+Standard Accuracy-	Train: 58.12%.	Test: 26.66%.
+Adversarial Accuracy-	Train: 18.84%.
+Time taken: 0:09:42
+======= Epoch 17 =======
+Clean Loss: 1.6524.	LR: 0.3963
+Adver Loss: 3.6612.	LR: 0.3963
+Standard Accuracy-	Train: 60.85%.	Test: 26.21%.
+Adversarial Accuracy-	Train: 19.53%.
+Time taken: 0:09:39
+======= Epoch 18 =======
+Clean Loss: 1.5411.	LR: 0.3956
+Adver Loss: 3.5982.	LR: 0.3956
+Standard Accuracy-	Train: 63.52%.	Test: 25.81%.
+Adversarial Accuracy-	Train: 20.38%.
+Time taken: 0:09:24
+======= Epoch 19 =======
+Clean Loss: 1.4369.	LR: 0.3949
+Adver Loss: 3.5391.	LR: 0.3949
+Standard Accuracy-	Train: 65.99%.	Test: 26.39%.
+Adversarial Accuracy-	Train: 21.02%.
+Time taken: 0:09:24
+======= Epoch 20 =======
+Check Epoch 20:   0%|          | 0/98 [00:00<?, ?it/s]Check Epoch 20:   1%|          | 1/98 [00:08<13:05,  8.10s/it]Check Epoch 20:   2%|▏         | 2/98 [00:13<10:43,  6.70s/it]Check Epoch 20:   3%|▎         | 3/98 [00:19<09:54,  6.26s/it]Check Epoch 20:   4%|▍         | 4/98 [00:25<09:28,  6.05s/it]Check Epoch 20:   5%|▌         | 5/98 [00:31<09:11,  5.94s/it]Check Epoch 20:   6%|▌         | 6/98 [00:36<08:59,  5.87s/it]Check Epoch 20:   7%|▋         | 7/98 [00:42<08:49,  5.82s/it]Check Epoch 20:   8%|▊         | 8/98 [00:48<08:41,  5.79s/it]Check Epoch 20:   9%|▉         | 9/98 [00:53<08:33,  5.77s/it]Check Epoch 20:  10%|█         | 10/98 [00:59<08:26,  5.76s/it]Check Epoch 20:  11%|█         | 11/98 [01:05<08:20,  5.75s/it]Check Epoch 20:  12%|█▏        | 12/98 [01:11<08:14,  5.75s/it]Check Epoch 20:  13%|█▎        | 13/98 [01:16<08:08,  5.74s/it]Check Epoch 20:  14%|█▍        | 14/98 [01:22<08:02,  5.74s/it]Check Epoch 20:  15%|█▌        | 15/98 [01:28<07:56,  5.74s/it]Check Epoch 20:  16%|█▋        | 16/98 [01:34<07:50,  5.73s/it]Check Epoch 20:  17%|█▋        | 17/98 [01:39<07:44,  5.73s/it]Check Epoch 20:  18%|█▊        | 18/98 [01:45<07:38,  5.73s/it]Check Epoch 20:  19%|█▉        | 19/98 [01:51<07:32,  5.73s/it]Check Epoch 20:  20%|██        | 20/98 [01:56<07:27,  5.73s/it]Check Epoch 20:  21%|██▏       | 21/98 [02:02<07:21,  5.73s/it]Check Epoch 20:  22%|██▏       | 22/98 [02:08<07:15,  5.73s/it]Check Epoch 20:  23%|██▎       | 23/98 [02:14<07:09,  5.73s/it]Check Epoch 20:  24%|██▍       | 24/98 [02:19<07:04,  5.73s/it]Check Epoch 20:  26%|██▌       | 25/98 [02:25<06:58,  5.73s/it]Check Epoch 20:  27%|██▋       | 26/98 [02:31<06:52,  5.73s/it]Check Epoch 20:  28%|██▊       | 27/98 [02:37<06:46,  5.73s/it]Check Epoch 20:  29%|██▊       | 28/98 [02:42<06:41,  5.73s/it]Check Epoch 20:  30%|██▉       | 29/98 [02:48<06:35,  5.73s/it]Check Epoch 20:  31%|███       | 30/98 [02:54<06:29,  5.73s/it]Check Epoch 20:  32%|███▏      | 31/98 [03:00<06:23,  5.73s/it]Check Epoch 20:  33%|███▎      | 32/98 [03:05<06:18,  5.73s/it]Check Epoch 20:  34%|███▎      | 33/98 [03:11<06:12,  5.73s/it]Check Epoch 20:  35%|███▍      | 34/98 [03:17<06:06,  5.73s/it]Check Epoch 20:  36%|███▌      | 35/98 [03:22<06:01,  5.73s/it]Check Epoch 20:  37%|███▋      | 36/98 [03:28<05:55,  5.73s/it]Check Epoch 20:  38%|███▊      | 37/98 [03:34<05:49,  5.73s/it]Check Epoch 20:  39%|███▉      | 38/98 [03:40<05:43,  5.73s/it]Check Epoch 20:  40%|███▉      | 39/98 [03:45<05:38,  5.73s/it]Check Epoch 20:  41%|████      | 40/98 [03:51<05:32,  5.73s/it]Check Epoch 20:  42%|████▏     | 41/98 [03:57<05:26,  5.73s/it]Check Epoch 20:  43%|████▎     | 42/98 [04:03<05:20,  5.73s/it]Check Epoch 20:  44%|████▍     | 43/98 [04:08<05:15,  5.73s/it]Check Epoch 20:  45%|████▍     | 44/98 [04:14<05:09,  5.73s/it]Check Epoch 20:  46%|████▌     | 45/98 [04:20<05:03,  5.73s/it]Check Epoch 20:  47%|████▋     | 46/98 [04:25<04:58,  5.73s/it]Check Epoch 20:  48%|████▊     | 47/98 [04:31<04:52,  5.73s/it]Check Epoch 20:  49%|████▉     | 48/98 [04:37<04:46,  5.73s/it]Check Epoch 20:  50%|█████     | 49/98 [04:43<04:40,  5.73s/it]Check Epoch 20:  51%|█████     | 50/98 [04:48<04:35,  5.73s/it]Check Epoch 20:  52%|█████▏    | 51/98 [04:54<04:29,  5.73s/it]Check Epoch 20:  53%|█████▎    | 52/98 [05:00<04:23,  5.73s/it]Check Epoch 20:  54%|█████▍    | 53/98 [05:06<04:17,  5.73s/it]Check Epoch 20:  55%|█████▌    | 54/98 [05:11<04:12,  5.73s/it]Check Epoch 20:  56%|█████▌    | 55/98 [05:17<04:06,  5.73s/it]Check Epoch 20:  57%|█████▋    | 56/98 [05:23<04:00,  5.73s/it]Check Epoch 20:  58%|█████▊    | 57/98 [05:29<03:55,  5.73s/it]Check Epoch 20:  59%|█████▉    | 58/98 [05:34<03:49,  5.73s/it]Check Epoch 20:  60%|██████    | 59/98 [05:40<03:43,  5.73s/it]Check Epoch 20:  61%|██████    | 60/98 [05:46<03:37,  5.73s/it]Check Epoch 20:  62%|██████▏   | 61/98 [05:51<03:32,  5.73s/it]Check Epoch 20:  63%|██████▎   | 62/98 [05:57<03:26,  5.73s/it]Check Epoch 20:  64%|██████▍   | 63/98 [06:03<03:20,  5.73s/it]Check Epoch 20:  65%|██████▌   | 64/98 [06:09<03:14,  5.73s/it]Check Epoch 20:  66%|██████▋   | 65/98 [06:14<03:09,  5.73s/it]Check Epoch 20:  67%|██████▋   | 66/98 [06:20<03:03,  5.73s/it]Check Epoch 20:  68%|██████▊   | 67/98 [06:26<02:57,  5.73s/it]Check Epoch 20:  69%|██████▉   | 68/98 [06:32<02:51,  5.73s/it]Check Epoch 20:  70%|███████   | 69/98 [06:37<02:46,  5.73s/it]Check Epoch 20:  71%|███████▏  | 70/98 [06:43<02:40,  5.73s/it]Check Epoch 20:  72%|███████▏  | 71/98 [06:49<02:34,  5.73s/it]Check Epoch 20:  73%|███████▎  | 72/98 [06:55<02:28,  5.73s/it]Check Epoch 20:  74%|███████▍  | 73/98 [07:00<02:23,  5.73s/it]Check Epoch 20:  76%|███████▌  | 74/98 [07:06<02:17,  5.73s/it]Check Epoch 20:  77%|███████▋  | 75/98 [07:12<02:11,  5.73s/it]Check Epoch 20:  78%|███████▊  | 76/98 [07:17<02:06,  5.73s/it]Check Epoch 20:  79%|███████▊  | 77/98 [07:23<02:00,  5.73s/it]Check Epoch 20:  80%|███████▉  | 78/98 [07:29<01:54,  5.73s/it]Check Epoch 20:  81%|████████  | 79/98 [07:35<01:48,  5.73s/it]Check Epoch 20:  82%|████████▏ | 80/98 [07:40<01:43,  5.73s/it]Check Epoch 20:  83%|████████▎ | 81/98 [07:46<01:37,  5.73s/it]Check Epoch 20:  84%|████████▎ | 82/98 [07:52<01:31,  5.73s/it]Check Epoch 20:  85%|████████▍ | 83/98 [07:58<01:25,  5.73s/it]Check Epoch 20:  86%|████████▌ | 84/98 [08:03<01:20,  5.73s/it]Check Epoch 20:  87%|████████▋ | 85/98 [08:09<01:14,  5.73s/it]Check Epoch 20:  88%|████████▊ | 86/98 [08:15<01:08,  5.73s/it]Check Epoch 20:  89%|████████▉ | 87/98 [08:20<01:03,  5.73s/it]Check Epoch 20:  90%|████████▉ | 88/98 [08:26<00:57,  5.73s/it]Check Epoch 20:  91%|█████████ | 89/98 [08:32<00:51,  5.73s/it]Check Epoch 20:  92%|█████████▏| 90/98 [08:38<00:45,  5.73s/it]Check Epoch 20:  93%|█████████▎| 91/98 [08:43<00:40,  5.73s/it]Check Epoch 20:  94%|█████████▍| 92/98 [08:49<00:34,  5.73s/it]Check Epoch 20:  95%|█████████▍| 93/98 [08:55<00:28,  5.73s/it]Check Epoch 20:  96%|█████████▌| 94/98 [09:01<00:22,  5.73s/it]Check Epoch 20:  97%|█████████▋| 95/98 [09:06<00:17,  5.73s/it]Check Epoch 20:  98%|█████████▊| 96/98 [09:12<00:11,  5.72s/it]Check Epoch 20:  99%|█████████▉| 97/98 [09:18<00:05,  5.72s/it]Check Epoch 20: 100%|██████████| 98/98 [09:22<00:00,  5.15s/it]Check Epoch 20: 100%|██████████| 98/98 [09:22<00:00,  5.74s/it]
+Clean Loss: 1.3320.	LR: 0.3942
+Adver Loss: 3.4604.	LR: 0.3942
+Standard Accuracy-	Train: 68.58%.	Test: 26.75%.
+Adversarial Accuracy-	Train: 21.89%.
+Time taken: 0:18:46
+======= Epoch 21 =======
+Clean Loss: 1.2365.	LR: 0.3934
+Adver Loss: 3.4114.	LR: 0.3934
+Standard Accuracy-	Train: 70.84%.	Test: 26.86%.
+Adversarial Accuracy-	Train: 22.55%.
+Time taken: 0:09:24
+======= Epoch 22 =======
+Clean Loss: 1.1453.	LR: 0.3925
+Adver Loss: 3.3563.	LR: 0.3925
+Standard Accuracy-	Train: 73.25%.	Test: 27.56%.
+Adversarial Accuracy-	Train: 22.93%.
+Time taken: 0:09:27
+======= Epoch 23 =======
+Clean Loss: 1.0514.	LR: 0.3916
+Adver Loss: 3.2954.	LR: 0.3916
+Standard Accuracy-	Train: 75.65%.	Test: 26.96%.
+Adversarial Accuracy-	Train: 23.83%.
+Time taken: 0:09:28
+======= Epoch 24 =======
+Clean Loss: 0.9748.	LR: 0.3907
+Adver Loss: 3.2629.	LR: 0.3907
+Standard Accuracy-	Train: 77.58%.	Test: 26.56%.
+Adversarial Accuracy-	Train: 24.14%.
+Time taken: 0:09:26
+======= Epoch 25 =======
+Clean Loss: 0.8923.	LR: 0.3897
+Adver Loss: 3.2122.	LR: 0.3897
+Standard Accuracy-	Train: 79.58%.	Test: 26.80%.
+Adversarial Accuracy-	Train: 24.81%.	Test: 8.32%.
+Time taken: 0:10:56
+======= Epoch 26 =======
+Clean Loss: 0.8202.	LR: 0.3887
+Adver Loss: 3.1750.	LR: 0.3887
+Standard Accuracy-	Train: 81.49%.	Test: 26.73%.
+Adversarial Accuracy-	Train: 25.15%.
+Time taken: 0:09:23
+======= Epoch 27 =======
+Clean Loss: 0.7497.	LR: 0.3876
+Adver Loss: 3.1377.	LR: 0.3876
+Standard Accuracy-	Train: 83.16%.	Test: 26.64%.
+Adversarial Accuracy-	Train: 25.94%.
+Time taken: 0:09:34
+======= Epoch 28 =======
+Clean Loss: 0.6870.	LR: 0.3864
+Adver Loss: 3.1020.	LR: 0.3864
+Standard Accuracy-	Train: 84.93%.	Test: 26.15%.
+Adversarial Accuracy-	Train: 26.42%.
+Time taken: 0:09:24
+======= Epoch 29 =======
+Clean Loss: 0.6292.	LR: 0.3852
+Adver Loss: 3.0726.	LR: 0.3852
+Standard Accuracy-	Train: 86.29%.	Test: 26.57%.
+Adversarial Accuracy-	Train: 26.92%.
+Time taken: 0:09:45
+======= Epoch 30 =======
+Clean Loss: 0.5749.	LR: 0.3840
+Adver Loss: 3.0334.	LR: 0.3840
+Standard Accuracy-	Train: 87.80%.	Test: 26.71%.
+Adversarial Accuracy-	Train: 27.75%.
+Time taken: 0:09:34
+======= Epoch 31 =======
+Clean Loss: 0.5298.	LR: 0.3827
+Adver Loss: 3.0064.	LR: 0.3827
+Standard Accuracy-	Train: 88.76%.	Test: 25.54%.
+Adversarial Accuracy-	Train: 28.27%.
+Time taken: 0:09:24
+======= Epoch 32 =======
+Clean Loss: 0.4844.	LR: 0.3814
+Adver Loss: 2.9828.	LR: 0.3814
+Standard Accuracy-	Train: 89.95%.	Test: 26.06%.
+Adversarial Accuracy-	Train: 28.82%.
+Time taken: 0:09:24
+======= Epoch 33 =======
+Clean Loss: 0.4467.	LR: 0.3800
+Adver Loss: 2.9397.	LR: 0.3800
+Standard Accuracy-	Train: 90.91%.	Test: 26.19%.
+Adversarial Accuracy-	Train: 29.42%.
+Time taken: 0:09:41
+======= Epoch 34 =======
+Clean Loss: 0.4149.	LR: 0.3786
+Adver Loss: 2.9172.	LR: 0.3786
+Standard Accuracy-	Train: 91.83%.	Test: 26.30%.
+Adversarial Accuracy-	Train: 30.12%.
+Time taken: 0:09:24
+======= Epoch 35 =======
+Clean Loss: 0.3843.	LR: 0.3771
+Adver Loss: 2.8954.	LR: 0.3771
+Standard Accuracy-	Train: 92.63%.	Test: 25.60%.
+Adversarial Accuracy-	Train: 30.56%.
+Time taken: 0:09:24
+======= Epoch 36 =======
+Clean Loss: 0.3540.	LR: 0.3756
+Adver Loss: 2.8589.	LR: 0.3756
+Standard Accuracy-	Train: 93.33%.	Test: 25.85%.
+Adversarial Accuracy-	Train: 31.04%.
+Time taken: 0:09:47
+======= Epoch 37 =======
+Clean Loss: 0.3298.	LR: 0.3740
+Adver Loss: 2.8259.	LR: 0.3740
+Standard Accuracy-	Train: 93.93%.	Test: 25.78%.
+Adversarial Accuracy-	Train: 31.92%.
+Time taken: 0:09:24
+======= Epoch 38 =======
+Clean Loss: 0.3097.	LR: 0.3724
+Adver Loss: 2.8047.	LR: 0.3724
+Standard Accuracy-	Train: 94.29%.	Test: 25.53%.
+Adversarial Accuracy-	Train: 32.36%.
+Time taken: 0:09:24
+======= Epoch 39 =======
+Clean Loss: 0.2909.	LR: 0.3707
+Adver Loss: 2.7745.	LR: 0.3707
+Standard Accuracy-	Train: 94.82%.	Test: 24.85%.
+Adversarial Accuracy-	Train: 33.10%.
+Time taken: 0:09:24
+======= Epoch 40 =======
+Check Epoch 40:   0%|          | 0/98 [00:00<?, ?it/s]Check Epoch 40:   1%|          | 1/98 [00:07<12:23,  7.67s/it]Check Epoch 40:   2%|▏         | 2/98 [00:13<10:26,  6.53s/it]Check Epoch 40:   3%|▎         | 3/98 [00:19<09:45,  6.16s/it]Check Epoch 40:   4%|▍         | 4/98 [00:24<09:23,  5.99s/it]Check Epoch 40:   5%|▌         | 5/98 [00:30<09:08,  5.90s/it]Check Epoch 40:   6%|▌         | 6/98 [00:36<08:57,  5.84s/it]Check Epoch 40:   7%|▋         | 7/98 [00:42<08:48,  5.80s/it]Check Epoch 40:   8%|▊         | 8/98 [00:47<08:40,  5.78s/it]Check Epoch 40:   9%|▉         | 9/98 [00:53<08:32,  5.76s/it]Check Epoch 40:  10%|█         | 10/98 [00:59<08:26,  5.75s/it]Check Epoch 40:  11%|█         | 11/98 [01:04<08:19,  5.75s/it]Check Epoch 40:  12%|█▏        | 12/98 [01:10<08:13,  5.74s/it]Check Epoch 40:  13%|█▎        | 13/98 [01:16<08:07,  5.74s/it]Check Epoch 40:  14%|█▍        | 14/98 [01:22<08:01,  5.74s/it]Check Epoch 40:  15%|█▌        | 15/98 [01:27<07:55,  5.73s/it]Check Epoch 40:  16%|█▋        | 16/98 [01:33<07:50,  5.73s/it]Check Epoch 40:  17%|█▋        | 17/98 [01:39<07:44,  5.73s/it]Check Epoch 40:  18%|█▊        | 18/98 [01:45<07:38,  5.73s/it]Check Epoch 40:  19%|█▉        | 19/98 [01:50<07:32,  5.73s/it]Check Epoch 40:  20%|██        | 20/98 [01:56<07:26,  5.73s/it]Check Epoch 40:  21%|██▏       | 21/98 [02:02<07:21,  5.73s/it]Check Epoch 40:  22%|██▏       | 22/98 [02:07<07:15,  5.73s/it]Check Epoch 40:  23%|██▎       | 23/98 [02:13<07:09,  5.73s/it]Check Epoch 40:  24%|██▍       | 24/98 [02:19<07:03,  5.73s/it]Check Epoch 40:  26%|██▌       | 25/98 [02:25<06:58,  5.73s/it]Check Epoch 40:  27%|██▋       | 26/98 [02:30<06:52,  5.73s/it]Check Epoch 40:  28%|██▊       | 27/98 [02:36<06:46,  5.73s/it]Check Epoch 40:  29%|██▊       | 28/98 [02:42<06:40,  5.73s/it]Check Epoch 40:  30%|██▉       | 29/98 [02:48<06:35,  5.73s/it]Check Epoch 40:  31%|███       | 30/98 [02:53<06:29,  5.73s/it]Check Epoch 40:  32%|███▏      | 31/98 [02:59<06:24,  5.73s/it]Check Epoch 40:  33%|███▎      | 32/98 [03:05<06:18,  5.73s/it]Check Epoch 40:  34%|███▎      | 33/98 [03:11<06:12,  5.73s/it]Check Epoch 40:  35%|███▍      | 34/98 [03:16<06:06,  5.73s/it]Check Epoch 40:  36%|███▌      | 35/98 [03:22<06:00,  5.73s/it]Check Epoch 40:  37%|███▋      | 36/98 [03:28<05:55,  5.73s/it]Check Epoch 40:  38%|███▊      | 37/98 [03:33<05:49,  5.73s/it]Check Epoch 40:  39%|███▉      | 38/98 [03:39<05:43,  5.73s/it]Check Epoch 40:  40%|███▉      | 39/98 [03:45<05:38,  5.73s/it]Check Epoch 40:  41%|████      | 40/98 [03:51<05:32,  5.73s/it]Check Epoch 40:  42%|████▏     | 41/98 [03:56<05:26,  5.73s/it]Check Epoch 40:  43%|████▎     | 42/98 [04:02<05:20,  5.73s/it]Check Epoch 40:  44%|████▍     | 43/98 [04:08<05:15,  5.73s/it]Check Epoch 40:  45%|████▍     | 44/98 [04:14<05:09,  5.73s/it]Check Epoch 40:  46%|████▌     | 45/98 [04:19<05:03,  5.73s/it]Check Epoch 40:  47%|████▋     | 46/98 [04:25<04:58,  5.73s/it]Check Epoch 40:  48%|████▊     | 47/98 [04:31<04:52,  5.73s/it]Check Epoch 40:  49%|████▉     | 48/98 [04:36<04:46,  5.73s/it]Check Epoch 40:  50%|█████     | 49/98 [04:42<04:40,  5.73s/it]Check Epoch 40:  51%|█████     | 50/98 [04:48<04:35,  5.73s/it]Check Epoch 40:  52%|█████▏    | 51/98 [04:54<04:29,  5.73s/it]Check Epoch 40:  53%|█████▎    | 52/98 [04:59<04:23,  5.73s/it]Check Epoch 40:  54%|█████▍    | 53/98 [05:05<04:17,  5.73s/it]Check Epoch 40:  55%|█████▌    | 54/98 [05:11<04:12,  5.73s/it]Check Epoch 40:  56%|█████▌    | 55/98 [05:17<04:06,  5.73s/it]Check Epoch 40:  57%|█████▋    | 56/98 [05:22<04:00,  5.73s/it]Check Epoch 40:  58%|█████▊    | 57/98 [05:28<03:54,  5.73s/it]Check Epoch 40:  59%|█████▉    | 58/98 [05:34<03:49,  5.73s/it]Check Epoch 40:  60%|██████    | 59/98 [05:40<03:43,  5.73s/it]Check Epoch 40:  61%|██████    | 60/98 [05:45<03:37,  5.73s/it]Check Epoch 40:  62%|██████▏   | 61/98 [05:51<03:32,  5.73s/it]Check Epoch 40:  63%|██████▎   | 62/98 [05:57<03:26,  5.73s/it]Check Epoch 40:  64%|██████▍   | 63/98 [06:02<03:20,  5.73s/it]Check Epoch 40:  65%|██████▌   | 64/98 [06:08<03:14,  5.73s/it]Check Epoch 40:  66%|██████▋   | 65/98 [06:14<03:09,  5.73s/it]Check Epoch 40:  67%|██████▋   | 66/98 [06:20<03:03,  5.73s/it]Check Epoch 40:  68%|██████▊   | 67/98 [06:25<02:57,  5.73s/it]Check Epoch 40:  69%|██████▉   | 68/98 [06:31<02:51,  5.73s/it]Check Epoch 40:  70%|███████   | 69/98 [06:37<02:46,  5.73s/it]Check Epoch 40:  71%|███████▏  | 70/98 [06:43<02:40,  5.73s/it]Check Epoch 40:  72%|███████▏  | 71/98 [06:48<02:34,  5.73s/it]Check Epoch 40:  73%|███████▎  | 72/98 [06:54<02:29,  5.73s/it]Check Epoch 40:  74%|███████▍  | 73/98 [07:00<02:23,  5.73s/it]Check Epoch 40:  76%|███████▌  | 74/98 [07:05<02:17,  5.73s/it]Check Epoch 40:  77%|███████▋  | 75/98 [07:11<02:11,  5.73s/it]Check Epoch 40:  78%|███████▊  | 76/98 [07:17<02:06,  5.73s/it]Check Epoch 40:  79%|███████▊  | 77/98 [07:23<02:00,  5.73s/it]Check Epoch 40:  80%|███████▉  | 78/98 [07:28<01:54,  5.73s/it]Check Epoch 40:  81%|████████  | 79/98 [07:34<01:48,  5.73s/it]Check Epoch 40:  82%|████████▏ | 80/98 [07:40<01:43,  5.73s/it]Check Epoch 40:  83%|████████▎ | 81/98 [07:46<01:37,  5.73s/it]Check Epoch 40:  84%|████████▎ | 82/98 [07:51<01:31,  5.73s/it]Check Epoch 40:  85%|████████▍ | 83/98 [07:57<01:25,  5.73s/it]Check Epoch 40:  86%|████████▌ | 84/98 [08:03<01:20,  5.73s/it]Check Epoch 40:  87%|████████▋ | 85/98 [08:08<01:14,  5.73s/it]Check Epoch 40:  88%|████████▊ | 86/98 [08:14<01:08,  5.74s/it]Check Epoch 40:  89%|████████▉ | 87/98 [08:20<01:03,  5.74s/it]Check Epoch 40:  90%|████████▉ | 88/98 [08:26<00:57,  5.73s/it]Check Epoch 40:  91%|█████████ | 89/98 [08:31<00:51,  5.73s/it]Check Epoch 40:  92%|█████████▏| 90/98 [08:37<00:45,  5.73s/it]Check Epoch 40:  93%|█████████▎| 91/98 [08:43<00:40,  5.73s/it]Check Epoch 40:  94%|█████████▍| 92/98 [08:49<00:34,  5.73s/it]Check Epoch 40:  95%|█████████▍| 93/98 [08:54<00:28,  5.73s/it]Check Epoch 40:  96%|█████████▌| 94/98 [09:00<00:22,  5.73s/it]Check Epoch 40:  97%|█████████▋| 95/98 [09:06<00:17,  5.73s/it]Check Epoch 40:  98%|█████████▊| 96/98 [09:12<00:11,  5.72s/it]Check Epoch 40:  99%|█████████▉| 97/98 [09:17<00:05,  5.72s/it]Check Epoch 40: 100%|██████████| 98/98 [09:21<00:00,  5.14s/it]Check Epoch 40: 100%|██████████| 98/98 [09:21<00:00,  5.73s/it]
+Clean Loss: 0.2733.	LR: 0.3690
+Adver Loss: 2.7426.	LR: 0.3690
+Standard Accuracy-	Train: 95.23%.	Test: 26.11%.
+Adversarial Accuracy-	Train: 33.42%.
+Time taken: 0:18:45
+======= Epoch 41 =======
+Clean Loss: 0.2630.	LR: 0.3673
+Adver Loss: 2.7408.	LR: 0.3673
+Standard Accuracy-	Train: 95.50%.	Test: 25.31%.
+Adversarial Accuracy-	Train: 33.72%.
+Time taken: 0:09:24
+======= Epoch 42 =======
+Clean Loss: 0.2489.	LR: 0.3655
+Adver Loss: 2.7148.	LR: 0.3655
+Standard Accuracy-	Train: 95.72%.	Test: 24.28%.
+Adversarial Accuracy-	Train: 34.37%.
+Time taken: 0:09:24
+======= Epoch 43 =======
+Clean Loss: 0.2426.	LR: 0.3637
+Adver Loss: 2.7073.	LR: 0.3637
+Standard Accuracy-	Train: 95.91%.	Test: 25.46%.
+Adversarial Accuracy-	Train: 34.36%.
+Time taken: 0:09:24
+======= Epoch 44 =======
+Clean Loss: 0.2284.	LR: 0.3618
+Adver Loss: 2.6809.	LR: 0.3618
+Standard Accuracy-	Train: 96.23%.	Test: 25.51%.
+Adversarial Accuracy-	Train: 35.08%.
+Time taken: 0:09:24
+======= Epoch 45 =======
+Clean Loss: 0.2224.	LR: 0.3599
+Adver Loss: 2.6567.	LR: 0.3599
+Standard Accuracy-	Train: 96.30%.	Test: 24.56%.
+Adversarial Accuracy-	Train: 35.53%.
+Time taken: 0:09:24
+======= Epoch 46 =======
+Clean Loss: 0.2138.	LR: 0.3579
+Adver Loss: 2.6405.	LR: 0.3579
+Standard Accuracy-	Train: 96.46%.	Test: 24.89%.
+Adversarial Accuracy-	Train: 35.88%.
+Time taken: 0:09:24
+======= Epoch 47 =======
+Clean Loss: 0.2044.	LR: 0.3559
+Adver Loss: 2.6180.	LR: 0.3559
+Standard Accuracy-	Train: 96.76%.	Test: 25.29%.
+Adversarial Accuracy-	Train: 36.15%.
+Time taken: 0:09:24
+======= Epoch 48 =======
+Clean Loss: 0.1975.	LR: 0.3539
+Adver Loss: 2.6116.	LR: 0.3539
+Standard Accuracy-	Train: 96.90%.	Test: 25.17%.
+Adversarial Accuracy-	Train: 36.41%.
+Time taken: 0:09:24
+======= Epoch 49 =======
+Clean Loss: 0.1974.	LR: 0.3518
+Adver Loss: 2.6081.	LR: 0.3518
+Standard Accuracy-	Train: 96.81%.	Test: 24.75%.
+Adversarial Accuracy-	Train: 36.54%.
+Time taken: 0:09:24
+======= Epoch 50 =======
+Clean Loss: 0.1875.	LR: 0.3497
+Adver Loss: 2.5710.	LR: 0.3497
+Standard Accuracy-	Train: 97.04%.	Test: 25.22%.
+Adversarial Accuracy-	Train: 37.19%.	Test: 8.72%.
+Time taken: 0:10:56
+======= Epoch 51 =======
+Clean Loss: 0.1856.	LR: 0.3475
+Adver Loss: 2.5769.	LR: 0.3475
+Standard Accuracy-	Train: 97.09%.	Test: 25.19%.
+Adversarial Accuracy-	Train: 37.17%.
+Time taken: 0:09:23
+======= Epoch 52 =======
+Clean Loss: 0.1805.	LR: 0.3454
+Adver Loss: 2.5436.	LR: 0.3454
+Standard Accuracy-	Train: 97.24%.	Test: 25.11%.
+Adversarial Accuracy-	Train: 37.62%.
+Time taken: 0:09:23
+======= Epoch 53 =======
+Clean Loss: 0.1761.	LR: 0.3431
+Adver Loss: 2.5464.	LR: 0.3431
+Standard Accuracy-	Train: 97.32%.	Test: 24.78%.
+Adversarial Accuracy-	Train: 37.66%.
+Time taken: 0:09:23
+======= Epoch 54 =======
+Clean Loss: 0.1714.	LR: 0.3409
+Adver Loss: 2.5306.	LR: 0.3409
+Standard Accuracy-	Train: 97.35%.	Test: 25.44%.
+Adversarial Accuracy-	Train: 38.16%.
+Time taken: 0:09:44
+======= Epoch 55 =======
+Clean Loss: 0.1687.	LR: 0.3385
+Adver Loss: 2.5196.	LR: 0.3385
+Standard Accuracy-	Train: 97.44%.	Test: 25.09%.
+Adversarial Accuracy-	Train: 38.43%.
+Time taken: 0:09:24
+======= Epoch 56 =======
+Clean Loss: 0.1659.	LR: 0.3362
+Adver Loss: 2.5149.	LR: 0.3362
+Standard Accuracy-	Train: 97.50%.	Test: 24.92%.
+Adversarial Accuracy-	Train: 38.56%.
+Time taken: 0:09:24
+======= Epoch 57 =======
+Clean Loss: 0.1615.	LR: 0.3338
+Adver Loss: 2.4963.	LR: 0.3338
+Standard Accuracy-	Train: 97.62%.	Test: 24.36%.
+Adversarial Accuracy-	Train: 38.82%.
+Time taken: 0:09:48
+======= Epoch 58 =======
+slurmstepd: error: *** JOB 6558258 ON nal-000 CANCELLED AT 2023-03-02T10:00:17 ***

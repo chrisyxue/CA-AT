@@ -1,0 +1,337 @@
+/ext3/miniconda3/lib/python3.10/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 3, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/cifar10_aug_adver_criterion_ce/1_wrn-28-10_adver_thres_thres_0.75/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_512_0.4/log-train.log
+Using device: cuda
+Files already downloaded and verified
+Files already downloaded and verified
+
+
+
+Standard Accuracy-	Test: 10.526195%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/ext3/miniconda3/lib/python3.10/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 3, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py:129: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(epoch_metrics, index=[0]), ignore_index=True)
+/ext3/miniconda3/lib/python3.10/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 3, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Clean Loss: 2.0002.	LR: 0.0160
+Adver Loss: 2.2330.	LR: 0.0160
+Standard Accuracy-	Train: 26.16%.	Test: 34.36%.
+Adversarial Accuracy-	Train: 16.70%.
+Time taken: 0:25:58
+======= Epoch 2 =======
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py:241: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  metrics = metrics.append(pd.DataFrame(batch_metrics, index=[0]), ignore_index=True)
+slurmstepd: error: *** JOB 38455888 ON gr041 CANCELLED AT 2023-10-01T12:29:45 ***

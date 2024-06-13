@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#SBATCH --job-name Name_of_Job    # job name
+#SBATCH --time=42:00:00  # 1 hour of wall time
+#SBATCH --nodes=1        # 1 GPU node
+#SBATCH --ntasks=1       # 1 CPU core to drive GPU
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem-per-cpu=32G 
+#SBATCH --cpus-per-task=1           # number of CPUs (or cores) per task (same as -c)
+          
+# Load all required modules below.
+conda activate
+cd /mnt/home/xuezhiyu/Adver/adversarial_robustness_pytorch/exp_scripts_msu/tiny-imagenet/
+
+sh run_2_resnet34.sh

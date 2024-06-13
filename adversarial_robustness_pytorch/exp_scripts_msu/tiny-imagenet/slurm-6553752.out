@@ -1,0 +1,49 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "train-wa.py", line 37, in <module>
+    args.log_dir = render_resfile_name(args=args)
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/utils/utils.py", line 191, in render_resfile_name
+    os.makedirs(dir)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  [Previous line repeated 5 more times]
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/scratch'
+Traceback (most recent call last):
+  File "train-wa.py", line 37, in <module>
+    args.log_dir = render_resfile_name(args=args)
+  File "/mnt/ufs18/home-160/xuezhiyu/Adver/adversarial_robustness_pytorch/core/utils/utils.py", line 191, in render_resfile_name
+    os.makedirs(dir)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  [Previous line repeated 5 more times]
+  File "/mnt/home/xuezhiyu/anaconda3/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/scratch'

@@ -1,0 +1,458 @@
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug_pretrain_InDomain/1_preact-resnet34_trades_thres_thres_0.9/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Load Pretrained Model on /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug/1_preact-resnet34_adver_avg_beta_0.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/weights-last.pt
+
+
+
+Standard Accuracy-	Test: 4.626034%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 161, in train
+    adv_loss, adv_batch_metrics = self.trades_loss(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 234, in trades_loss
+    loss, batch_metrics = trades_loss(self.model, x, y, self.optimizer, step_size=self.params.attack_step, 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/trades.py", line 37, in trades_loss
+    loss_kl = criterion_kl(F.log_softmax(model(x_adv), dim=1), p_natural)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 106, in forward
+    out = self.layer2(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 32, in forward
+    out = self.conv1(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug_pretrain_InDomain/1_preact-resnet34_trades_thres_thres_0.8/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Load Pretrained Model on /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug/1_preact-resnet34_adver_avg_beta_0.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/weights-last.pt
+
+
+
+Standard Accuracy-	Test: 4.626034%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 161, in train
+    adv_loss, adv_batch_metrics = self.trades_loss(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 234, in trades_loss
+    loss, batch_metrics = trades_loss(self.model, x, y, self.optimizer, step_size=self.params.attack_step, 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/trades.py", line 37, in trades_loss
+    loss_kl = criterion_kl(F.log_softmax(model(x_adv), dim=1), p_natural)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 106, in forward
+    out = self.layer2(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 32, in forward
+    out = self.conv1(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug_wa0.9_pretrain_InDomain/1_preact-resnet34_trades_thres_thres_0.9/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Using WA.
+Load Pretrained Model on /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug/1_preact-resnet34_adver_avg_beta_0.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/weights-last.pt
+
+
+
+Standard Accuracy-	Test: 4.626034%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/gowal21uncovering/utils/watrain.py", line 96, in train
+    adv_loss, adv_batch_metrics = self.trades_loss(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 234, in trades_loss
+    loss, batch_metrics = trades_loss(self.model, x, y, self.optimizer, step_size=self.params.attack_step, 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/trades.py", line 37, in trades_loss
+    loss_kl = criterion_kl(F.log_softmax(model(x_adv), dim=1), p_natural)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 106, in forward
+    out = self.layer2(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 32, in forward
+    out = self.conv1(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug_wa0.9_pretrain_InDomain/1_preact-resnet34_trades_thres_thres_0.8/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Using WA.
+Load Pretrained Model on /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug/1_preact-resnet34_adver_avg_beta_0.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/weights-last.pt
+
+
+
+Standard Accuracy-	Test: 4.626034%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/gowal21uncovering/utils/watrain.py", line 96, in train
+    adv_loss, adv_batch_metrics = self.trades_loss(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 234, in trades_loss
+    loss, batch_metrics = trades_loss(self.model, x, y, self.optimizer, step_size=self.params.attack_step, 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/trades.py", line 37, in trades_loss
+    loss_kl = criterion_kl(F.log_softmax(model(x_adv), dim=1), p_natural)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 106, in forward
+    out = self.layer2(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 32, in forward
+    out = self.conv1(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug_wa0.8_pretrain_InDomain/1_preact-resnet34_trades_thres_thres_0.9/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Using WA.
+Load Pretrained Model on /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug/1_preact-resnet34_adver_avg_beta_0.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/weights-last.pt
+
+
+
+Standard Accuracy-	Test: 4.626034%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/gowal21uncovering/utils/watrain.py", line 96, in train
+    adv_loss, adv_batch_metrics = self.trades_loss(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 234, in trades_loss
+    loss, batch_metrics = trades_loss(self.model, x, y, self.optimizer, step_size=self.params.attack_step, 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/trades.py", line 37, in trades_loss
+    loss_kl = criterion_kl(F.log_softmax(model(x_adv), dim=1), p_natural)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 106, in forward
+    out = self.layer2(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 32, in forward
+    out = self.conv1(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug_wa0.8_pretrain_InDomain/1_preact-resnet34_trades_thres_thres_0.8/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Using WA.
+Load Pretrained Model on /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug/1_preact-resnet34_adver_avg_beta_0.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/weights-last.pt
+
+
+
+Standard Accuracy-	Test: 4.626034%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/gowal21uncovering/utils/watrain.py", line 96, in train
+    adv_loss, adv_batch_metrics = self.trades_loss(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 234, in trades_loss
+    loss, batch_metrics = trades_loss(self.model, x, y, self.optimizer, step_size=self.params.attack_step, 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/trades.py", line 37, in trades_loss
+    loss_kl = criterion_kl(F.log_softmax(model(x_adv), dim=1), p_natural)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 106, in forward
+    out = self.layer2(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 32, in forward
+    out = self.conv1(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug_wa0.7_pretrain_InDomain/1_preact-resnet34_trades_thres_thres_0.9/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Using WA.
+Load Pretrained Model on /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug/1_preact-resnet34_adver_avg_beta_0.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/weights-last.pt
+
+
+
+Standard Accuracy-	Test: 4.626034%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/gowal21uncovering/utils/watrain.py", line 96, in train
+    adv_loss, adv_batch_metrics = self.trades_loss(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 234, in trades_loss
+    loss, batch_metrics = trades_loss(self.model, x, y, self.optimizer, step_size=self.params.attack_step, 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/trades.py", line 37, in trades_loss
+    loss_kl = criterion_kl(F.log_softmax(model(x_adv), dim=1), p_natural)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 106, in forward
+    out = self.layer2(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 32, in forward
+    out = self.conv1(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug_wa0.7_pretrain_InDomain/1_preact-resnet34_trades_thres_thres_0.8/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Using WA.
+Load Pretrained Model on /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug/1_preact-resnet34_adver_avg_beta_0.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/weights-last.pt
+
+
+
+Standard Accuracy-	Test: 4.626034%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/gowal21uncovering/utils/watrain.py", line 96, in train
+    adv_loss, adv_batch_metrics = self.trades_loss(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 234, in trades_loss
+    loss, batch_metrics = trades_loss(self.model, x, y, self.optimizer, step_size=self.params.attack_step, 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/trades.py", line 37, in trades_loss
+    loss_kl = criterion_kl(F.log_softmax(model(x_adv), dim=1), p_natural)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 106, in forward
+    out = self.layer2(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 32, in forward
+    out = self.conv1(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug_wa0.6_pretrain_InDomain/1_preact-resnet34_trades_thres_thres_0.9/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Using WA.
+Load Pretrained Model on /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug/1_preact-resnet34_adver_avg_beta_0.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/weights-last.pt
+
+
+
+Standard Accuracy-	Test: 4.626034%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/gowal21uncovering/utils/watrain.py", line 96, in train
+    adv_loss, adv_batch_metrics = self.trades_loss(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 234, in trades_loss
+    loss, batch_metrics = trades_loss(self.model, x, y, self.optimizer, step_size=self.params.attack_step, 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/trades.py", line 37, in trades_loss
+    loss_kl = criterion_kl(F.log_softmax(model(x_adv), dim=1), p_natural)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 106, in forward
+    out = self.layer2(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 32, in forward
+    out = self.conv1(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
+Logging to file:  /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug_wa0.6_pretrain_InDomain/1_preact-resnet34_trades_thres_thres_0.8/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/log-train.log
+Using device: cuda
+Using WA.
+Load Pretrained Model on /scratch/zx1673/results/xuezhiyu/adver_robustness_notrack/tiny-imagenet_aug/1_preact-resnet34_adver_avg_beta_0.0/linf-pgd_0.03137254901960784_0.00784313725490196_10/200_1024_0.4/weights-last.pt
+
+
+
+Standard Accuracy-	Test: 4.626034%.
+RST Adversarial training for 200 epochs
+======= Epoch 1 =======
+Traceback (most recent call last):
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/train-wa.py", line 98, in <module>
+    res = trainer.train(train_dataloader, epoch=epoch, adversarial=True)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/gowal21uncovering/utils/watrain.py", line 96, in train
+    adv_loss, adv_batch_metrics = self.trades_loss(x, y)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/train.py", line 234, in trades_loss
+    loss, batch_metrics = trades_loss(self.model, x, y, self.optimizer, step_size=self.params.attack_step, 
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/utils/trades.py", line 37, in trades_loss
+    loss_kl = criterion_kl(F.log_softmax(model(x_adv), dim=1), p_natural)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 106, in forward
+    out = self.layer2(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/zx1673/codes/Adver/adversarial_robustness_pytorch/core/models/ti_preact_resnet.py", line 32, in forward
+    out = self.conv1(out)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/ext3/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
