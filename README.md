@@ -19,5 +19,5 @@ sh cifar10_ca_at.sh # CA-AT
 
 ```bash
 sh eval_pgd.sh # Test Adv Accs on PGD attack with Different Steps
-sh eval_untarget.sh # Test Adv Accs on 
+sh eval_untarget.sh # Test Adv Accs on different types of attacks
 ```
