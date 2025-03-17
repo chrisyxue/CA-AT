@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # CA-AT
 The codes for Conflict-Aware Adversarial Training
 =======
@@ -21,4 +21,3 @@ sh cifar10_ca_at.sh # CA-AT
 sh eval_pgd.sh # Test Adv Accs on PGD attack with Different Steps
 sh eval_untarget.sh # Test Adv Accs on 
 ```
->>>>>>> 9f40f70 (upload light version)
